@@ -39,7 +39,7 @@ app.get('/', function (req, res) {
         title: 'Hello from render',
         nav: [{
             Link: '/Books',
-            Text: 'Books'
+            Text: 'Book\'s'
         }, {
             Link: '/Authors',
             Text: 'Authors'

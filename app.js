@@ -48,11 +48,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/books', function (req, res) {
-    res.send('Hello Books');
+    res.send('Hello Book');
 });
 
 app.listen(port, function (err) {
-    console.log('running server on port ' + port);
+    console.log('running server on port: ' + port);
 });
 
 require('./webhook')(app);

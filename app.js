@@ -39,7 +39,7 @@ app.get('/', function (req, res) {
         title: 'Hello from render',
         nav: [{
             Link: '/Books',
-            Text: 'Books'
+            Text: 'Book\'s'
         }, {
             Link: '/Authors',
             Text: 'Authors'
@@ -52,5 +52,7 @@ app.get('/books', function (req, res) {
 });
 
 app.listen(port, function (err) {
-    console.log('running server on port ' + port);
+    console.log('running server on port: ' + port);
 });
+
+require('./webhook')(app);

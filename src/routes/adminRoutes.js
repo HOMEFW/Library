@@ -23,19 +23,19 @@ var books = [{
         read: false
     },
     {
-        title: 'A Journey into the Center of the Earth (01)',
+        title: 'A Journey into the Center of the Earth',
         genre: 'Science Fiction',
         author: 'Jules Verne',
         read: false
     },
     {
-        title: 'The Dark World (01)',
+        title: 'The Dark World',
         genre: 'Fantasy',
         author: 'Henry Kuttner',
         read: false
     },
     {
-        title: 'The Wind in the Willows (01)',
+        title: 'The Wind in the Willows',
         genre: 'Fantasy',
         author: 'Kenneth Grahame',
         read: false
